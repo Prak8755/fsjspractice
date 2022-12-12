@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+.imp-label:hover::after{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: orange;
+      }
+    </style>
+</head>
+<body>
+        <div>
+
+            <div  class="row">
+                  <form class="form1">
+
+                <label for="Name" class="imp-label"> Enter user name </label>
+                <input type="text" placeholder="username"><br>
+                <label for="Email">Enter email address</label>
+                <input type="email" required placeholder="email"><br>
+                <label for="phone"> enter mobile number</label>
+                <input type="number" required placeholder="Mobile number"><br>
+                <input type="submit">
+            </form></div>
+        </div>
+</body>
+</html>

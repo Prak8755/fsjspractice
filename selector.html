@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+/* universal sekector */
+*{
+
+    background-color: aqua;
+}
+/* individual selector */
+
+h1{
+    color: rgb(37, 7, 183);
+}
+h2{
+    color: blueviolet;
+}
+
+/* class and id selector */
+
+.head1{
+    background-color: chartreuse;
+}
+#head4{
+    background-color: darkgreen;
+}
+/* and selector 0r multiple element selector */
+
+li.list2{
+background-color: blueviolet;
+}
+/* inside an element */
+
+ li ul{
+    font-size: 40px;
+
+}
+
+/* sibling or + */
+
+.app +li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-largen;
+}
+
+    </style>
+</head>
+<body>
+    <center>
+
+        <h1 class="head1">Heading 1</h1>
+        <h2 class="head2">Heading 1</h2>
+        <h3 class="head3">Heading 1</h3>
+        <h4 id="head4">Heading 1</h4>
+        <h5 id="head5">Heading 1</h5>
+        <h6 id="head6">Heading 1</h6>
+    </center>
+
+        <p>Our first paragraph is written here.</p>
+        <ul>
+            <li class="list2">APPLE</li>
+            <li>MANGO</li>
+            <li>ORANGE</li>
+            <li>PINEAPPLE</li>
+        </ul>
+
+        <ol class="order">
+            <li>You are very smart</li>
+            <li class="list">You look very handsome </li>
+            <li>You have a very kind nature</li>
+            <li>You always help other.</li>
+        </ol>
+
+      <center><h2>Nested list</h2></center>  
+
+      <p>Now we will talk about nested list</p>
+    <ul>
+        <li>Mobile phones
+            <ul>
+                <li>Apple</li>
+                <li>Vivo</li>
+                <li>Samsung</li>
+            </ul>
+        </li>
+        <li>Laptop
+            <ol>
+                <li class="list2">Macbook</li>
+                <li>acer</li>
+                <li>Zango</li>
+            </ol>
+        </li>
+        <li>Operating system
+            <ol>
+                <li class="app">Apple</li>
+                <li>window</li>
+                <li>linux</li>
+            </ol>
+        </li>
+        <li>THIS IS IN PROCESS</li>
+        <li>WE ARE WORKING ON OUR PRODUCT.</li>
+    </ul>
+    </body>
+</html>
